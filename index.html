@@ -1,0 +1,412 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weevpro Collection | Where Class Meets Fashion</title>
+
+<style>
+:root {
+  --gold: #d6a844;
+  --black: #080808;
+  --dark: #151515;
+  --white: #f7f4ed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #050505;
+  border-bottom: 1px solid var(--gold);
+  padding: 20px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  color: var(--gold);
+  font-family: Georgia, serif;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.logo span {
+  display: block;
+  color: white;
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: var(--gold);
+}
+
+.hero {
+  padding: 35px 7%;
+  text-align: center;
+  background: radial-gradient(circle, #292014, #080808 70%);
+}
+
+.hero img {
+  width: 100%;
+  max-width: 750px;
+  max-height: 620px;
+  object-fit: contain;
+  border: 1px solid var(--gold);
+}
+
+.hero h1 {
+  color: var(--gold);
+  font-family: Georgia, serif;
+  font-size: 38px;
+  margin: 25px 0 10px;
+}
+
+.hero p {
+  color: #ddd;
+  margin-bottom: 22px;
+}
+
+.gold-button {
+  display: inline-block;
+  background: var(--gold);
+  color: #080808;
+  padding: 13px 28px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 55px 7%;
+}
+
+.section-title {
+  text-align: center;
+  color: var(--gold);
+  font-family: Georgia, serif;
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 35px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.product {
+  background: var(--dark);
+  border: 1px solid #59451f;
+  border-radius: 9px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  border-color: var(--gold);
+}
+
+.product img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  background: #080808;
+  padding: 10px;
+}
+
+.product-info {
+  padding: 18px;
+  text-align: center;
+}
+
+.product h3 {
+  color: var(--gold);
+  margin-bottom: 10px;
+  font-family: Georgia, serif;
+}
+
+.product p {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.price {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.order {
+  display: block;
+  background: var(--gold);
+  color: #080808;
+  padding: 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.order:hover, .gold-button:hover {
+  background: white;
+}
+
+.about {
+  background: #111;
+  text-align: center;
+  border-top: 1px solid #59451f;
+  border-bottom: 1px solid #59451f;
+}
+
+.about p {
+  max-width: 650px;
+  margin: 20px auto;
+  line-height: 1.8;
+  color: #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 35px 15px;
+  color: #aaa;
+  line-height: 2;
+}
+
+footer strong {
+  color: var(--gold);
+}
+
+footer a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+@media(max-width:600px) {
+  header {
+    justify-content: center;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 0 8px;
+  }
+
+  .hero h1 {
+    font-size: 29px;
+  }
+
+  .section {
+    padding: 40px 5%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    WEEVPRO
+    <span>COLLECTION</span>
+  </div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Collections</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+
+  <img src="9036_enhanced.jpg"
+       alt="Weevpro Collection promotional poster">
+
+  <h1>Where Class Meets Fashion</h1>
+
+  <p>Premium bags designed for comfort, durability and elegance.</p>
+
+  <a href="#products" class="gold-button">EXPLORE COLLECTION</a>
+
+</section>
+
+<section class="section" id="products">
+
+  <h2 class="section-title">OUR COLLECTION</h2>
+
+  <p class="subtitle">
+    Discover your style. Carry your confidence.
+  </p>
+
+  <div class="products">
+
+    <div class="product">
+      <img src="9006_enhanced.jpg" alt="Premium grey travel bag">
+      <div class="product-info">
+        <h3>Premium Travel Bag</h3>
+        <p>Stylish design with spacious compartments.</p>
+        <div class="price">Price on enquiry</div>
+        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Premium%20Travel%20Bag">
+          ORDER ON WHATSAPP
+        </a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="9028_enhanced.jpg" alt="Black travel bag">
+      <div class="product-info">
+        <h3>Classic Black Bag</h3>
+        <p>Elegant everyday and travel companion.</p>
+        <div class="price">Price on enquiry</div>
+        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Classic%20Black%20Bag">
+          ORDER ON WHATSAPP
+        </a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="9029_enhanced.jpg" alt="Brown travel bag">
+      <div class="product-info">
+        <h3>Classic Brown Bag</h3>
+        <p>A timeless look with a premium finish.</p>
+        <div class="price">Price on enquiry</div>
+        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Classic%20Brown%20Bag">
+          ORDER ON WHATSAPP
+        </a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="9007_enhanced.jpg" alt="Black backpack">
+      <div class="product-info">
+        <h3>Premium Backpack</h3>
+        <p>Practical, spacious and stylish.</p>
+        <div class="price">Price on enquiry</div>
+        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Premium%20Backpack">
+          ORDER ON WHATSAPP
+        </a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="9009_enhanced.jpg" alt="Everyday backpack">
+      <div class="product-info">
+        <h3>Everyday Backpack</h3>
+        <p>Designed for daily use and convenience.</p>
+        <div class="price">Price on enquiry</div>
+        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Everyday%20Backpack">
+          ORDER ON WHATSAPP
+        </a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="9008_enhanced.jpg" alt="Premium bag collection">
+      <div class="product-info">
+        <h3>Premium Bag Collection</h3>
+        <p>Smart designs for your everyday needs.</p>
+        <div class="price">Price on enquiry</div>
+        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20your%20Premium%20Bag%20Collection">
+          ORDER ON WHATSAPP
+        </a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="9004_enhanced.jpg" alt="Brown stylish bag">
+      <div class="product-info">
+        <h3>Stylish Brown Bag</h3>
+        <p>Class meets fashion in every detail.</p>
+        <div class="price">Price on enquiry</div>
+        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Stylish%20Brown%20Bag">
+          ORDER ON WHATSAPP
+        </a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="9025_enhanced.jpg" alt="Multi-pocket travel bag">
+      <div class="product-info">
+        <h3>Multi-Pocket Travel Bag</h3>
+        <p>Extra storage with a refined design.</p>
+        <div class="price">Price on enquiry</div>
+        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Multi-Pocket%20Travel%20Bag">
+          ORDER ON WHATSAPP
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section about" id="about">
+
+  <h2 class="section-title">ABOUT WEEVPRO</h2>
+
+  <p>
+    Welcome to Weevpro Collection, where class meets fashion.
+    We bring you stylish and practical bags designed to complement
+    your lifestyle. Explore different designs, colours and sizes.
+  </p>
+
+  <p><strong style="color:#d6a844">WE CARRY. YOU CONQUER.</strong></p>
+
+</section>
+
+<footer id="contact">
+
+  <strong>WEEVPRO COLLECTION</strong>
+
+  <p>For orders and enquiries:</p>
+
+  <p>
+    WhatsApp / Call:
+    <a href="https://wa.me/254751994114">+254 751 994 114</a>
+  </p>
+
+  <p>
+    TikTok:
+    <a href="https://www.tiktok.com/@fashionbyweevpro_collection">
+      @fashionbyweevpro_collection
+    </a>
+  </p>
+
+  <p>Where Class Meets Fashion.</p>
+
+  <p>© 2026 Weevpro Collection. All rights reserved.</p>
+
+</footer>
+
+</body>
+</html>
