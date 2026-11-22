@@ -269,105 +269,89 @@ footer a {
     Discover your style. Carry your confidence.
   </p>
 
-  <div class="products">
-
-    <div class="product">
-      <img src="bag 1.png" alt="Premium grey travel bag">
-      <div class="product-info">
-        <h3>Premium Travel Bag</h3>
-        <p>Stylish design with spacious compartments.</p>
-        <div class="price">Price on enquiry</div>
-        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Premium%20Travel%20Bag">
-          ORDER ON WHATSAPP
-        </a>
-      </div>
-    </div>
-
-    <div class="product">
-      <img src="9028_enhanced.jpg" alt="Black travel bag">
-      <div class="product-info">
-        <h3>Classic Black Bag</h3>
-        <p>Elegant everyday and travel companion.</p>
-        <div class="price">Price on enquiry</div>
-        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Classic%20Black%20Bag">
-          ORDER ON WHATSAPP
-        </a>
-      </div>
-    </div>
-
-    <div class="product">
-      <img src="9029_enhanced.jpg" alt="Brown travel bag">
-      <div class="product-info">
-        <h3>Classic Brown Bag</h3>
-        <p>A timeless look with a premium finish.</p>
-        <div class="price">Price on enquiry</div>
-        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Classic%20Brown%20Bag">
-          ORDER ON WHATSAPP
-        </a>
-      </div>
-    </div>
-
-    <div class="product">
-      <img src="9007_enhanced.jpg" alt="Black backpack">
-      <div class="product-info">
-        <h3>Premium Backpack</h3>
-        <p>Practical, spacious and stylish.</p>
-        <div class="price">Price on enquiry</div>
-        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Premium%20Backpack">
-          ORDER ON WHATSAPP
-        </a>
-      </div>
-    </div>
-
-    <div class="product">
-      <img src="9009_enhanced.jpg" alt="Everyday backpack">
-      <div class="product-info">
-        <h3>Everyday Backpack</h3>
-        <p>Designed for daily use and convenience.</p>
-        <div class="price">Price on enquiry</div>
-        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Everyday%20Backpack">
-          ORDER ON WHATSAPP
-        </a>
-      </div>
-    </div>
-
-    <div class="product">
-      <img src="9008_enhanced.jpg" alt="Premium bag collection">
-      <div class="product-info">
-        <h3>Premium Bag Collection</h3>
-        <p>Smart designs for your everyday needs.</p>
-        <div class="price">Price on enquiry</div>
-        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20your%20Premium%20Bag%20Collection">
-          ORDER ON WHATSAPP
-        </a>
-      </div>
-    </div>
-
-    <div class="product">
-      <img src="9004_enhanced.jpg" alt="Brown stylish bag">
-      <div class="product-info">
-        <h3>Stylish Brown Bag</h3>
-        <p>Class meets fashion in every detail.</p>
-        <div class="price">Price on enquiry</div>
-        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Stylish%20Brown%20Bag">
-          ORDER ON WHATSAPP
-        </a>
-      </div>
-    </div>
-
-    <div class="product">
-      <img src="9025_enhanced.jpg" alt="Multi-pocket travel bag">
-      <div class="product-info">
-        <h3>Multi-Pocket Travel Bag</h3>
-        <p>Extra storage with a refined design.</p>
-        <div class="price">Price on enquiry</div>
-        <a class="order" href="https://wa.me/254751994114?text=Hello%20Weevpro%2C%20I%20am%20interested%20in%20the%20Multi-Pocket%20Travel%20Bag">
-          ORDER ON WHATSAPP
-        </a>
-      </div>
-    </div>
-
+<div class="product">
+  <img src="bag 1.png" alt="Grey Travel Duffel Bag">
+  <div class="product-info">
+    <h3>Grey Travel Duffel Bag</h3>
+    <p>Spacious and stylish travel bag.</p>
+    <div class="price">Price on enquiry</div>
+    <a class="order" href="https://wa.me/254751994114">ORDER ON WHATSAPP</a>
   </div>
+</div>
+
+<div class="product">
+  <img src="bag 2.png" alt="Black Shoulder Bag">
+  <div class="product-info">
+    <h3>Classic Black Shoulder Bag</h3>
+    <p>Elegant everyday shoulder bag.</p>
+    <div class="price">Price on enquiry</div>
+    <a class="order" href="https://wa.me/254751994114">ORDER ON WHATSAPP</a>
+  </div>
+</div>
+
+<div class="product">
+  <img src="bag 3.png" alt="Black Backpack">
+  <div class="product-info">
+    <h3>Black Leather Backpack</h3>
+    <p>Stylish backpack with multiple compartments.</p>
+    <div class="price">Price on enquiry</div>
+    <a class="order" href="https://wa.me/254751994114">ORDER ON WHATSAPP</a>
+  </div>
+</div>
+
+<div class="product">
+  <img src="bag 4.png" alt="Black Travel Bag Set">
+  <div class="product-info">
+    <h3>Black Travel Bag Set</h3>
+    <p>Matching bags for convenient travel.</p>
+    <div class="price">Price on enquiry</div>
+    <a class="order" href="https://wa.me/254751994114">ORDER ON WHATSAPP</a>
+  </div>
+</div>
+
+<div class="product">
+  <img src="bag 5.png" alt="Grey Backpack">
+  <div class="product-info">
+    <h3>Grey Everyday Backpack</h3>
+    <p>Practical backpack for everyday use.</p>
+    <div class="price">Price on enquiry</div>
+    <a class="order" href="https://wa.me/254751994114">ORDER ON WHATSAPP</a>
+  </div>
+</div>
+
+<div class="product">
+  <img src="bag 6.png" alt="Grey Shoulder Bag">
+  <div class="product-info">
+    <h3>Grey Classic Shoulder Bag</h3>
+    <p>Smart and spacious shoulder bag.</p>
+    <div class="price">Price on enquiry</div>
+    <a class="order" href="https://wa.me/254751994114">ORDER ON WHATSAPP</a>
+  </div>
+</div>
+
+<div class="product">
+  <img src="bag 7.png" alt="Brown Shoulder Bag">
+  <div class="product-info">
+    <h3>Brown Classic Shoulder Bag</h3>
+    <p>Stylish brown everyday bag.</p>
+    <div class="price">Price on enquiry</div>
+    <a class="order" href="https://wa.me/254751994114">ORDER ON WHATSAPP</a>
+  </div>
+</div>
+
+<div class="product">
+  <img src="bag 8.png" alt="Brown Travel Duffel Bag">
+  <div class="product-info">
+    <h3>Brown Travel Duffel Bag</h3>
+    <p>Spacious bag for your travels.</p>
+    <div class="price">Price on enquiry</div>
+    <a class="order" href="https://wa.me/254751994114">ORDER ON WHATSAPP</a>
+  </div>
+</div>
+
+  
+
+  
 </section>
 
 <section class="section about" id="about">
