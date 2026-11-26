@@ -252,7 +252,9 @@ footer a {
     position: fixed;
     inset: 0;
     z-index: 9999;
-    min-height: 100vh;
+    height: 100vh;
+min-height: 100vh;
+box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -260,14 +262,15 @@ footer a {
     text-align: center;
     padding: 25px;
     background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.75)),
-    url('cover page 1.png') center center / contain no-repeat;
+    url('cover page 1.png') center center / 100% 100% no-repeat;
     color: white;
 ">
     
-<h1 style="color: #d6b344; font-size: clamp(26px, 7vw, 42px);">
 
-        WEEVPRO COLLECTION
-    </h1>
+<h1 style="color: #d6b344; font-size: clamp(26px, 7vw, 42px);">
+    WEEVPRO COLLECTION
+</h1>
+
 
     <p style="font-size: 19px; letter-spacing: 3px;">
         WHERE CLASS MEETS FASHION
